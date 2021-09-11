@@ -1,0 +1,148 @@
+*{
+    margin:0rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{    
+    background-image: url(images/novayork.png);
+    background-size: 100%;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+
+.livro1{
+    margin-top: 1.2rem;
+    margin-left: 20rem;
+}
+
+.livro2{
+    margin-top: 1.2rem;
+    margin-left: 20rem;
+}
+
+.novayork{
+    width: 100%;
+    position: absolute;
+
+}
+
+.l1{
+    font-family: 'Varela Round', sans-serif;
+    display: inline-block;
+    display: flex;
+    display: inline-flex;
+    background-color: #e26600;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    position: absolute;
+    width: 81.5rem;
+    height: 60px;
+    border-radius: 16px;
+}
+
+.banner{
+    left: 50%;
+    padding-top: 6rem;
+    position: absolute;
+    transform: translate(-30%,50%);
+}
+
+.camisa{
+    margin-left: 1rem;
+    margin-top: 9rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.camisa:hover{
+    transition: 0.5s;
+    width: 10.5rem;
+}
+
+.calca{
+    width: 13rem;
+    border-radius: 1rem;
+    background-color: white;
+    width: 10rem;
+    height: 9rem;
+    margin-left: 1rem;
+    margin-top: 20rem;
+    position: absolute;
+}
+
+.calca:hover{
+    transition: 0.5s;
+    width: 10.5rem;
+    height: 9.5rem;
+}
+
+.cargo{
+    width: 13rem;
+    border-radius: 1rem;
+    background-color: white;
+    width: 10rem;
+    height: 13rem;
+    margin-left: 1rem;
+    margin-top: 20rem;
+    position: absolute;
+}
+
+.cargo:hover{
+    transition: 0.5s;
+    width: 10.5rem;
+    height: 13.5rem;
+}
+
+.corrente{
+    margin-top: 30rem;
+    margin-left: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.corrente:hover{
+    transition: 0.5s;
+    width: 10.5rem;
+}
+
+.correntef{
+    margin-top: 34rem;
+    margin-left: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.correntef:hover{
+    transition: 0.5s;
+    width: 10.5rem;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(41, 41, 41);
+    margin-top: 1rem;
+    width: 100%;
+    height: 150px;
+}
+
+.footertext{
+    text-align: center;
+    padding-top: 4rem;
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.socialmedia{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
